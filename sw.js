@@ -1,4 +1,4 @@
-const CACHE_NAME = "OPIS_deck-v1";
+const CACHE_NAME = "OPIS_deck-v2";
 
 const FILES_TO_CACHE = [
   "./",
