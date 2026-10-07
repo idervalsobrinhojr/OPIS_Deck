@@ -57,7 +57,7 @@ self.addEventListener("fetch", event => {
 });
 
 self.addEventListener("activate", event => {
-  const cacheWhitelist = ["baralho-v2"];
+  const cacheWhitelist = ["OPIS_deck-v2"];
 
   event.waitUntil(
     caches.keys().then(cacheNames => {
